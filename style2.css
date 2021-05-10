@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(219, 212, 212);
+    margin:0;
+}
+
+
+.header{
+position: relative;
+width:95%;
+height: 70px;
+text-align: center;
+background-color: rgb(174, 198, 250);
+color:rgb(243, 239, 6);
+font-size:50px;
+margin-left: 2%;
+margin-top: 10px;
+margin-right: 10px;
+border:3px solid white;
+}
+
+.para1{
+    position: relative;
+    width:95%;
+    height: 30%;
+    color:rgb(172, 144, 109);
+    background-color: rgb(174, 198, 250);
+font-size:25px;
+    margin-left: 2%;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-indent: 15px;
+}
+
+    .info{
+        float:center;
+        position: absolute;
+        width:400px;
+        height:400px;
+       margin-left: 2%;
+      background-color:cornflowerblue;
+        background-size: 400px 200px;
+        margin-top: 20px;
+        color:black;
+        background-image:url("./img1.jpg");
+        background-repeat: no-repeat;
+     
+    }
+    .info1{
+        position: absolute;
+       float:left;
+       margin-left:37%;
+        width:400px;
+       height:400px;
+       background-color: cornflowerblue;
+       background-size: 400px 200px;
+       background-image:url("./img3.jpg");
+     margin-top:20px;
+     background-repeat: no-repeat;
+
+       }
+       #information2{
+        position: absolute;
+       float:right;
+       margin-left:70%;
+        width:400px;
+       height:400px;
+       background-color: cornflowerblue;
+       background-image:url("./img2.jpeg");
+       background-size: 400px 200px;
+     margin-top:20px;
+     background-repeat: no-repeat;
+     }
+       .info3{
+        margin-top: 35%;
+       }
+       .info4{
+           height:40px;
+           font-size: 20px;
+           margin-top: 38%;
+           color:black;
+           background-color: white;
+           text-align:right;
+       }
+       .myform{
+           
+        position:absolute;
+        width:30%;
+        height:48%;
+        margin-left:2%;
+        background-color:rgb(174, 198, 250);
+        margin-top:3%;
+        text-indent: 20px;
+        text-rendering: auto;
+        
+        word-spacing: 5px;
+        
+
+               }
+            .input1{
+                width:200px;
+                height:20px;
+                border:2px solid black;
+                font-size:15px;
+                
+            }
+
+            .mybutton{
+                text-indent: 5px;
+              width:120px;
+              height:50px;
+              font-size:30px;
+              background-color:white;
+              cursor:pointer;
+              margin-bottom: 5px;
+              margin-left: 5px;
+
+            }
+            .mybutton:active{
+                background-color:blue;
+                color:white;
+            }
+            .info5{
+                height:40px;
+                font-size: 20px;
+                margin-top: 40%;
+                color:black;
+                background-color:white;
+                text-align:right;
+                overflow:hidden;
+            }
+            .button{
+                margin-left:2%;
+                width:45%;
+                height:70px;  
+                background-color: rgb(205, 168, 240);
+                cursor:pointer;
+                color:white;
+                font-size:30px;
+                
+            }
+    .info6{
+        position:relative;
+        margin-top:10px;
+        width:100%;
+        height:70px;
+    }
+  .button1{
+      float:right;
+      margin-top:10px;
+      height:50px;
+      margin-right:15px;
+  }
